@@ -1,0 +1,112 @@
+div.content-login {
+    background: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+}
+
+div.welcome {
+    text-align: center;
+    padding: 160px 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+div.text {
+    width: 100%;
+    display: inline-block;
+    z-index: 10;
+    color: #fff;
+    font-size: 39px;
+    line-height: 1.7;
+}
+
+div.login {
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+div.sign-in {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+div.sign-in input,
+div.register input {
+    display: block;
+    width: calc(100% - 10px);
+    margin-top: 30px;
+    padding: 15px 5px;
+    border: 1px solid #ddd;
+    outline: 0;
+    font-size: 20px;
+}
+
+div.sign-in button,
+div.register button {
+    margin: 50px 0;
+    padding: 15px 20px;
+    letter-spacing: 3px;
+    background: none;
+    border: 1px solid #000;
+    outline: none;
+    float: left;
+}
+
+div.sign-in button:hover,
+div.register button:hover {
+    background: #00c8c8;
+    color: #fff;
+    border: 1px solid #00c8c8;
+    cursor: pointer;
+}
+
+div.sign-in button:active,
+div.register button:active {
+    background: none;
+    color: #000;
+    border: 1px solid #00c8c8;
+}
+
+
+/*div.register button {
+	width: 220px !important;
+}*/
+
+div.register {
+    width: 45%;
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+input[type="checkbox"] {
+    display: inline-block !important;
+    width: 15px !important;
+    padding: 0 !important;
+    margin-right: 10px;
+}
+
+div.policy {
+    margin-top: 57px;
+    float: right;
+    width: 270px;
+}
+
+div.policy span.policy {
+    margin-left: 0;
+}
+
+div.policy a {
+    color: #00c8c8;
+    text-decoration: none;
+}
+
+div.register {
+    border-left: 1px solid #ddd;
+}
+
+div.login p {
+    width: max-content;
+    margin-left: 100px;
+    margin-top: 10px;
+}
